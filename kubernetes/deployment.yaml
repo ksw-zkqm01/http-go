@@ -19,7 +19,7 @@ spec:
         app: http-go
     spec:
       containers:
-      - image: gasbugs/http-go:v2.0
+      - image: 059371745111.dkr.ecr.us-east-1.amazonaws.com/product-app:2023-10-22.15.47.19
         name: http-go
         resources: {}
         readinessProbe:
